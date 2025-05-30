@@ -1,0 +1,20 @@
+﻿TaskOrganizer
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\PERSONAL-Yonathan\Proyecto personales\-TaskOrganizer\Codigo\TaskOrganizer\obj\Debug\net8.0-windows\
+TaskOrganizer
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\PERSONAL-Yonathan\Proyecto personales\-TaskOrganizer\Codigo\TaskOrganizer\App.xaml
+2-184430170
+
+11648616696
+198-1431420039
+Views\Dashboard.xaml;Views\TaskManagement.xaml;
+
+False
+
