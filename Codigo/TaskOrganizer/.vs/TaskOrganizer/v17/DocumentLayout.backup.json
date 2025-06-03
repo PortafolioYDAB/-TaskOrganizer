@@ -3,35 +3,48 @@
   "WorkspaceRootPath": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\views\\taskmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:views\\taskmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\utilities\\interfaceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:utilities\\interfaceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\taskorganizer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:taskorganizer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yonat\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\configuration\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:configuration\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\connection\\dbstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:connection\\dbstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\connection\\dbquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:connection\\dbquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\connection\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:connection\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,31 +54,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.g.cs",
-              "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAQwDAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:01:06.545Z",
+              "DocumentIndex": 0,
+              "Title": "TaskManagement.xaml",
+              "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Views\\TaskManagement.xaml",
+              "RelativeDocumentMoniker": "Views\\TaskManagement.xaml",
+              "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Views\\TaskManagement.xaml",
+              "RelativeToolTip": "Views\\TaskManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T02:12:52.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\yonat\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\yonat\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Solo lectura]",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCcAAAAEAAAAAQAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InterfaceConfig.cs",
+              "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Utilities\\InterfaceConfig.cs",
+              "RelativeDocumentMoniker": "Utilities\\InterfaceConfig.cs",
+              "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Utilities\\InterfaceConfig.cs",
+              "RelativeToolTip": "Utilities\\InterfaceConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:57:50.644Z",
-              "EditorCaption": " [Solo lectura]"
+              "WhenOpened": "2025-05-30T01:55:54.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DBstatement.cs",
+              "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Connection\\DBstatement.cs",
+              "RelativeDocumentMoniker": "Connection\\DBstatement.cs",
+              "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Connection\\DBstatement.cs",
+              "RelativeToolTip": "Connection\\DBstatement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:31:23.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBquery.cs",
+              "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Connection\\DBquery.cs",
+              "RelativeDocumentMoniker": "Connection\\DBquery.cs",
+              "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Connection\\DBquery.cs",
+              "RelativeToolTip": "Connection\\DBquery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:31:10.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DBcontext.cs",
+              "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Connection\\DBcontext.cs",
+              "RelativeDocumentMoniker": "Connection\\DBcontext.cs",
+              "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Connection\\DBcontext.cs",
+              "RelativeToolTip": "Connection\\DBcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:30:57.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +128,7 @@
               "RelativeDocumentMoniker": "Views\\Dashboard.xaml.cs",
               "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Views\\Dashboard.xaml.cs",
               "RelativeToolTip": "Views\\Dashboard.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T00:57:26.852Z",
               "EditorCaption": ""
@@ -100,14 +153,14 @@
               "RelativeDocumentMoniker": "Configuration\\App.config",
               "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Configuration\\App.config",
               "RelativeToolTip": "Configuration\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-05-30T00:44:40.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -125,14 +178,14 @@
               "RelativeDocumentMoniker": "TaskOrganizer.csproj",
               "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj",
               "RelativeToolTip": "TaskOrganizer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-30T00:38:44.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",

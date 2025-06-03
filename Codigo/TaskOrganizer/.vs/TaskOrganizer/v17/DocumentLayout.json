@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\utilities\\interfaceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:utilities\\interfaceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\views\\taskmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:views\\taskmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\utilities\\interfaceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|solutionrelative:utilities\\interfaceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A86ACDB-66CA-4841-8B30-3C67CFC898C8}|TaskOrganizer.csproj|d:\\personal-yonathan\\proyecto personales\\-taskorganizer\\codigo\\taskorganizer\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -54,11 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskManagement.xaml",
               "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Views\\TaskManagement.xaml",
               "RelativeDocumentMoniker": "Views\\TaskManagement.xaml",
@@ -70,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "InterfaceConfig.cs",
               "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Utilities\\InterfaceConfig.cs",
               "RelativeDocumentMoniker": "Utilities\\InterfaceConfig.cs",
               "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Utilities\\InterfaceConfig.cs",
               "RelativeToolTip": "Utilities\\InterfaceConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T01:55:54.097Z",
               "EditorCaption": ""
@@ -91,8 +95,7 @@
               "RelativeToolTip": "Connection\\DBstatement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:31:23.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:31:23.815Z"
             },
             {
               "$type": "Document",
@@ -104,8 +107,7 @@
               "RelativeToolTip": "Connection\\DBquery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:31:10.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:31:10.117Z"
             },
             {
               "$type": "Document",
@@ -117,12 +119,11 @@
               "RelativeToolTip": "Connection\\DBcontext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:30:57.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:30:57.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dashboard.xaml.cs",
               "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Views\\Dashboard.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Dashboard.xaml.cs",
@@ -130,8 +131,7 @@
               "RelativeToolTip": "Views\\Dashboard.xaml.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:57:26.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:57:26.852Z"
             },
             {
               "$type": "Document",
@@ -142,8 +142,7 @@
               "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\Views\\Dashboard.xaml",
               "RelativeToolTip": "Views\\Dashboard.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T00:57:00.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:57:00.164Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "Configuration\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-30T00:44:40.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:44:40.052Z"
             },
             {
               "$type": "Document",
@@ -167,21 +165,19 @@
               "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T00:37:55.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:37:55.344Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TaskOrganizer",
+              "Title": "TaskOrganizer.csproj",
               "DocumentMoniker": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj",
               "RelativeDocumentMoniker": "TaskOrganizer.csproj",
               "ToolTip": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj",
               "RelativeToolTip": "TaskOrganizer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-30T00:38:44.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:38:44.135Z"
             },
             {
               "$type": "Document",
@@ -193,8 +189,7 @@
               "RelativeToolTip": "AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:37:17.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:37:17.996Z"
             }
           ]
         }
