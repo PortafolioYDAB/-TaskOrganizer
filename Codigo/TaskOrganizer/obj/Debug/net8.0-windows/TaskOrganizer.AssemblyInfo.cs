@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskOrganizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d8fa439148b363060505b5a5ba28f5a376618c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+490b1a538874387256ed726b92b5b8ab7aa634e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskOrganizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskOrganizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
