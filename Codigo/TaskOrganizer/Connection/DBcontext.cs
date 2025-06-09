@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Npgsql;
 using TaskOrganizer.Utilities;
+using static TaskOrganizer.Connection.DBcontext;
 
 namespace TaskOrganizer.Connection
 {
@@ -21,7 +22,7 @@ namespace TaskOrganizer.Connection
 
         }
 
-        public class statementResult
+        public class StatementResult
         {
             public statesQuery result { get; set; }
             public string messageResult { get; set; }
@@ -135,6 +136,82 @@ namespace TaskOrganizer.Connection
 
             // Return the result of the query, either with data or with error details
             return queryResult;
+        }
+
+
+        public StatementResult runStatement(string strSql, List<NpgsqlParameter> parameterList, CommandType type)
+        {
+            StatementResult statementResult = new StatementResult();
+            statementResult.messageResult = "";
+            // Variable to control retry logic for connection attempts
+            bool persistenceResponse = false;
+
+            // Counter for the number of connection attempts
+            int tryConecction = 0;
+
+            // To store any error messages that might occur
+            string errorMessage = "";
+
+            while (!persistenceResponse)
+            {
+                try
+                {
+                    tryConecction++;
+                    using (NpgsqlConnection connection = new NpgsqlConnection(InterfaceConfig.connectionString))
+                    {
+                        if (connection.State == ConnectionState.Open)
+                        {
+                            connection.Close();
+                            connection.Open();
+                        }
+                        else
+                        {
+                            connection.Open();
+                        }
+
+                        using (NpgsqlCommand command = connection.CreateCommand())
+                        {
+                            if(parameterList != null)
+                            {
+                                foreach (var parameter in parameterList)
+                                {
+                                    command.Parameters.Add(new NpgsqlParameter(parameter.ParameterName, parameter.Value));
+                                }
+                            }
+                            statementResult.result = statesQuery.OK;
+                            statementResult.rowsAffected = command.ExecuteNonQuery();
+                        }
+                        connection.Close();
+                        persistenceResponse=true;
+                        Log.recordLog($"Query executed ---->[{strSql}]");
+                                            }
+
+                }
+                catch (Exception ex)
+                {
+                    // If there is an error, store the message
+                    errorMessage = $"Error executing the following script ---> [{strSql}], Description ---> [{ex.Message}]";
+
+                    // Log the error
+                    Log.recordLog($"Error executing the following script ---> [{strSql}], Description ---> [{ex.Message}]");
+
+                    // Mark the attempt as failed
+                    persistenceResponse = false;
+
+                    // Store the error details in the result object
+                    statementResult.result = statesQuery.ERROR;
+                    statementResult.messageResult = errorMessage;
+                }
+
+
+                // If failed after 5 attempts, stop trying
+                if (persistenceResponse == false && tryConecction == 5)
+                {
+                    persistenceResponse = true;
+                }
+
+            }
+            return statementResult;
         }
 
 
