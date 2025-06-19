@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\PERSONAL-Yonathan\Proyecto personales\-TaskOrganizer\Codigo\TaskOrganizer\obj\Debug\net8.0-windows\
+C:\Users\yonat\OneDrive\Documentos\Proyecto personales\-TaskOrganizer\Codigo\TaskOrganizer\obj\Debug\net8.0-windows\
 TaskOrganizer
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\PERSONAL-Yonathan\Proyecto personales\-TaskOrganizer\Codigo\TaskOrganizer\App.xaml
-2-184430170
+C:\Users\yonat\OneDrive\Documentos\Proyecto personales\-TaskOrganizer\Codigo\TaskOrganizer\App.xaml
+61648135234
 
 131552892489
 201-744071791
-Views\Dashboard.xaml;Views\TaskManagement.xaml;
+Resources\GlobalColors.xaml;Resources\GlobalFonts.xaml;Resources\GlobalIcons.xaml;Styles\slideBarStyle.xaml;Views\Dashboard.xaml;Views\TaskManagement.xaml;
 
-False
+True
 

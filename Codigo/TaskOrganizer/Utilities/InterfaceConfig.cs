@@ -15,9 +15,9 @@ namespace TaskOrganizer.Utilities
 
         public static void InitializeConfig()
         {
-            connectionString= ConfigurationManager.ConnectionStrings["strCadenaConexion"]!.ToString();
-            nameLog = ConfigurationManager.AppSettings["nameLog"]!.ToString();
-            logPath = ConfigurationManager.AppSettings["logPath"]!.ToString();
+            connectionString= ConfigurationManager.ConnectionStrings["strCadenaConexion"].ToString();
+            nameLog = ConfigurationManager.AppSettings["nameLog"].ToString();
+            logPath = ConfigurationManager.AppSettings["logPath"].ToString();
         }
     }
 }

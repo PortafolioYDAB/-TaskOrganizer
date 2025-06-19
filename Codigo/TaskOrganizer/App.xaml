@@ -4,6 +4,18 @@
              xmlns:local="clr-namespace:TaskOrganizer"
              StartupUri="Views/Dashboard.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--Global Resources-->
+                <ResourceDictionary Source="/Resources/GlobalColors.xaml"/>
+                <ResourceDictionary Source="/Resources/GlobalFonts.xaml"/>
+                <ResourceDictionary Source="/Resources/GlobalIcons.xaml"/>
+
+                <!--Global Styles-->
+                <ResourceDictionary Source="/Styles/slideBarStyle.xaml"/>
+
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapImage x:Key="backGroundPanel" UriSource="/Assets/backGround.jpg" />
+    <!--<BitmapImage x:Key=""/>
+    <BitmapImage x:Key=""/>
+    <BitmapImage x:Key=""/>
+    <BitmapImage x:Key=""/>
+    <BitmapImage x:Key=""/>
+    <BitmapImage x:Key=""/>-->
+</ResourceDictionary>

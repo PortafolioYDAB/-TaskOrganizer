@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj": {}
+    "C:\\Users\\yonat\\OneDrive\\Documentos\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj": {}
   },
   "projects": {
-    "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj": {
+    "C:\\Users\\yonat\\OneDrive\\Documentos\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj",
+        "projectUniqueName": "C:\\Users\\yonat\\OneDrive\\Documentos\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj",
         "projectName": "TaskOrganizer",
-        "projectPath": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj",
+        "projectPath": "C:\\Users\\yonat\\OneDrive\\Documentos\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\TaskOrganizer.csproj",
         "packagesPath": "C:\\Users\\yonat\\.nuget\\packages\\",
-        "outputPath": "D:\\PERSONAL-Yonathan\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\obj\\",
+        "outputPath": "C:\\Users\\yonat\\OneDrive\\Documentos\\Proyecto personales\\-TaskOrganizer\\Codigo\\TaskOrganizer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

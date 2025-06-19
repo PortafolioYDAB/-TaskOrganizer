@@ -138,27 +138,33 @@ namespace TaskOrganizer.Connection
             return queryResult;
         }
 
-
+        // Method that runs a SQL query like update or insert
         public StatementResult runStatement(string strSql, List<NpgsqlParameter> parameterList, CommandType type)
         {
+            // Create an object to store the result of the SQL statement
             StatementResult statementResult = new StatementResult();
             statementResult.messageResult = "";
-            // Variable to control retry logic for connection attempts
+
+            // Flag to indicate if the execution was successful
             bool persistenceResponse = false;
 
             // Counter for the number of connection attempts
             int tryConecction = 0;
 
-            // To store any error messages that might occur
+            // To hold any error messages during execution
             string errorMessage = "";
 
+            // Loop until execution is successful or attempts reach 5
             while (!persistenceResponse)
             {
                 try
                 {
-                    tryConecction++;
+                    tryConecction++; // Increment attempt count
+
+                    // Create and open a new PostgreSQL connection using the configured connection string
                     using (NpgsqlConnection connection = new NpgsqlConnection(InterfaceConfig.connectionString))
                     {
+                        // Reopen the connection if already open
                         if (connection.State == ConnectionState.Open)
                         {
                             connection.Close();
@@ -169,50 +175,62 @@ namespace TaskOrganizer.Connection
                             connection.Open();
                         }
 
+                        // Create a command to execute the SQL statement
                         using (NpgsqlCommand command = connection.CreateCommand())
                         {
-                            if(parameterList != null)
+                            // Add parameters to the command if any are provided
+                            if (parameterList != null)
                             {
                                 foreach (var parameter in parameterList)
                                 {
                                     command.Parameters.Add(new NpgsqlParameter(parameter.ParameterName, parameter.Value));
                                 }
                             }
+
+                            // Indicate that the execution was successful
                             statementResult.result = statesQuery.OK;
+
+                            // Execute the SQL statement and store the number of affected rows
                             statementResult.rowsAffected = command.ExecuteNonQuery();
                         }
-                        connection.Close();
-                        persistenceResponse=true;
-                        Log.recordLog($"Query executed ---->[{strSql}]");
-                                            }
 
+                        // Close the connection after execution
+                        connection.Close();
+
+                        // Mark the operation as successful to exit the loop
+                        persistenceResponse = true;
+
+                        // Log the successful execution
+                        Log.recordLog($"Query executed ---->[{strSql}]");
+                    }
                 }
                 catch (Exception ex)
                 {
-                    // If there is an error, store the message
+                    // If an exception occurs, store the error message
                     errorMessage = $"Error executing the following script ---> [{strSql}], Description ---> [{ex.Message}]";
 
                     // Log the error
-                    Log.recordLog($"Error executing the following script ---> [{strSql}], Description ---> [{ex.Message}]");
+                    Log.recordLog(errorMessage);
 
-                    // Mark the attempt as failed
+                    // Indicate the operation failed
                     persistenceResponse = false;
 
-                    // Store the error details in the result object
+                    // Update the result object with error information
                     statementResult.result = statesQuery.ERROR;
                     statementResult.messageResult = errorMessage;
                 }
 
-
-                // If failed after 5 attempts, stop trying
+                // If execution failed after 5 attempts, stop retrying
                 if (persistenceResponse == false && tryConecction == 5)
                 {
                     persistenceResponse = true;
                 }
-
             }
+
+            // Return the result of the operation
             return statementResult;
         }
+
 
 
 
